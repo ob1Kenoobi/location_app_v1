@@ -1,16 +1,21 @@
 # google_maps_app
 
-A new Flutter project.
+A Flutter app that demonstrates real-time location tracking using Google Maps.
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
+This Flutter app allows users to view their current location on Google Maps, with smooth animations and continuous updates. The app displays a polyline on the map connecting the user's previous and current locations. Users can tap on the marker to open an info window, showing details such as "My current location," latitude, and longitude.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Include screenshots or GIFs showcasing the main features of your app.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
+Upon running the app, you will see a Google Map displaying your current location. The map smoothly animates to your updated location every 10 seconds. The app draws a polyline on the map, connecting your previous and current locations. Tap on the marker to open an info window with details about your current location.
+
+## Features
+ - Google Maps integration
+ - Real-time location tracking
+ - Smooth animation to the user's current location
+ - Polyline drawing between previous and current locations
+ - Marker with an info window displaying location details
